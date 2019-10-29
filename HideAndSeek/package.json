@@ -1,0 +1,26 @@
+{
+  "name": "hideandseek",
+  "version": "1.0.0",
+  "description": "working on the Webpack 2 basics and adding in my own twist",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack-dev-server --entry ./src/js/app.js --output-filename ./dist/bundle.js",
+    "build:prod": "webpack src/js/app.js -o dist/bundle.js -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cooks-Johns/HideAndSeek.git"
+  },
+  "author": "MidNIghtCookies",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cooks-Johns/HideAndSeek/issues"
+  },
+  "homepage": "https://github.com/Cooks-Johns/HideAndSeek#readme",
+  "devDependencies": {
+    "webpack": "^4.41.1",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2"
+  }
+}
