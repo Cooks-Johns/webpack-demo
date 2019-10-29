@@ -1,0 +1,70 @@
+
+
+------------------->  Basic setUp  <-------------------------
+
+$ npx webpack
+Hash: cadbd982241d09464a73
+Version: webpack 4.41.2
+Time: 1580ms
+Built at: 10/28/2019 9:15:45 PM
+  Asset      Size  Chunks             Chunk Names
+main.js  70.9 KiB       0  [emitted]  main
+Entrypoint main = main.js
+[1] ./src/index.js 213 bytes {0} [built]
+[2] (webpack)/buildin/global.js 472 bytes {0} [built]
+[3] (webpack)/buildin/module.js 497 bytes {0} [built]
+    + 1 hidden module
+
+WARNING in configuration
+The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+
+
+-------------------------------------------->
+
+
+$ npx webpack --config webpack.config.js
+Hash: dde61251ca8910c78723
+Version: webpack 4.41.2
+Time: 251ms
+Built at: 10/28/2019 9:21:31 PM
+  Asset      Size  Chunks             Chunk Names
+main.js  70.9 KiB       0  [emitted]  main
+Entrypoint main = main.js
+[1] ./src/index.js 213 bytes {0} [built]
+[2] (webpack)/buildin/global.js 472 bytes {0} [built]
+[3] (webpack)/buildin/module.js 497 bytes {0} [built]
+    + 1 hidden module
+
+WARNING in configuration
+The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+MidNightCookiess-MacBook-Pro:webpack-demo hivemind$ 
+
+-------------------------------------------->
+
+$ npm run build
+
+> webpack-demo@1.0.0 build /Users/hivemind/Desktop/myth/WebPack_Study/webpack-demo
+> webpack
+
+Hash: dde61251ca8910c78723
+Version: webpack 4.41.2
+Time: 238ms
+Built at: 10/28/2019 9:24:00 PM
+  Asset      Size  Chunks             Chunk Names
+main.js  70.9 KiB       0  [emitted]  main
+Entrypoint main = main.js
+[1] ./src/index.js 213 bytes {0} [built]
+[2] (webpack)/buildin/global.js 472 bytes {0} [built]
+[3] (webpack)/buildin/module.js 497 bytes {0} [built]
+    + 1 hidden module
+
+WARNING in configuration
+The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+
+
+
+--------------------->  Asset Management  <----------------------
+
